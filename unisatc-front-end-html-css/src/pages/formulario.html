@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Exemplo de Campos de Form</title>
+    <link rel="stylesheet" href="../styles/global.css">
+    <link rel="stylesheet" href="../styles/formulario.css">
+  </head>
+  <body>
+    <main>
+      <p>
+        Formulários em HTML/front-end servem para coletar informações do usuário e enviar as mesmas para um servidor de
+        back-end. Tudo que é "digitável" dentro de uma tag <code>&#x3C;form&#x3E;&#x3C;/form&#x3E;</code> será
+        "envelopado" e enviado para o servidor em um endereço apontado no atributo <code>action='...'</code>.
+      </p>
+      <form action="https://httpbin.org/post" method="post">
+        <!--Conjunto de campos (tag div dos usuários)-->
+        <!--Ele serve para separar em forma de campos/etapas (parte por parte)-->
+        <fieldset>
+          <div class="geral">
+            <!--Primeira parte do formulário-->
+          <div class="nome">
+            <!--Nome do usuário-->
+            <label for="name">Nome:</label>
+            <!--Pedir para o usuário inserir o nome-->
+            <input type="text" />
+          </div>
+          <!--Segunda parte do formulário-->
+          <div class="email">
+            <!--Email do usuário-->
+            <label for="email">E-mail:</label>
+            <!--Pedir para o usuário inserir o email-->
+            <input type="email" />
+          </div>
+          <!--Terceira parte do formulário-->
+          <div class="password">
+            <!--Senha do usuário-->
+            <label for="password">Senha:</label>
+            <!--Pedir para o usuário inserir a senha-->
+            <input type="password" />
+          </div>
+          <!--Quarta parte do formulário-->
+          <div class="sexo">
+              <!--Sexo do usuário-->
+              <label for="sexo">Sexo:</label>
+            <!--Pedir para o usuário escolhger seu sexo através das "bolinhas"-->
+            <input type="radio" name="sexo" value="M" /> Masculino <input type="radio" name="sexo" value="F" /> Feminino
+          </div>
+          <!--Quinta parte do formulário-->
+          <div class="estado">
+            <!--Estado do usuário-->
+            <label for="state">Estado:</label>
+            <!--Pedir para o usuário inserir o seu estado, atrvés das opções-->
+            <select>
+              <!--Opções de estado para o usuário selecionar-->
+              <option value=""></option>
+              <option value="AC">Acre</option>
+              <option value="AL">Alagoas</option>
+              <option value="AP">Amapá</option>
+              <option value="SP">São Paulo</option>
+              <option value="RJ">Rio de Janeiro</option>
+              <option value="SC">Santa Catarina</option>
+              <option value="RS">Rio Grande do Sul</option>
+            </select>
+          </div>
+          <!--Sexta parte do formulário-->
+          <div class="form-control">
+            <!--Comentários que o usuário i´ra fazer-->
+            <label for="comentários">Comentários:</label>
+            <!--Pedir para o usuário inserir os seus comentários-->
+            <textarea></textarea>
+          </div>
+          <!--Sétima parte do formulário-->
+          <div class="termos_uso">
+            <!--Termos de uso que o usuário irá concordar-->
+            <label for="used-terms">Termos de uso:</label>
+            <!--Uma checkbox onde irá pedir para o usuário confirmar-->
+            <input type="checkbox" /> eu aceito os termos de uso
+          </div>
+          <!--Oitava parte do formulário-->
+          <div class="botao">
+            <!--Botão de enviar, para o usuário enviar o formulário-->
+            <button type="submit">Enviar</button>
+            <!--Botão para o usuário limpar o formulário-->
+            <button type="reset">Limpar</button>
+          </div>
+          </div>
+        </fieldset>
+      </form>
+    </main>
+  </body>
+</html>
