@@ -8,4 +8,6 @@
     <li><b>Códigos Fonte:</b> Todos os códigos fonte relacionados à atividade da disciplina.</li>
     <li><b>Documentação:</b> Qualquer documentação relevante de cada função dentro dos arquivos da pasta</li>
   </ul>
+<br>
+<h3>Estrutura do Repositório:</h3>
 
