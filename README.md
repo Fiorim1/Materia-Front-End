@@ -18,7 +18,7 @@
     <p><b>OBS.: A pasta foi entregue de forma "crua" aos alunos pelo professor, pois estamos iniciando na parte de programação básica de Front-End </b></p>
     <p>Pasta entregue para os alunos:</p>
     📘default.css, 📃formulario.html, 📃imagem.html, 📃index.html, 🖼️luffy.jpg, 📃tabela.html
-    <p>Pasta com minhas alterações:
-    📃index.html, 📂src->📂imgs(🖼️luffy.jpg)->📂pages(📃tabela.html, 📃imagem.html, 📃formulario.html)->📂styles(📘global.css, 📘default.css)</p>
+    <p>Pasta com minhas alterações:</p>
+    📃index.html, 📂src->📂imgs(🖼️luffy.jpg)->📂pages(📃tabela.html, 📃imagem.html, 📃formulario.html)->📂styles(📘global.css, 📘default.css)
   
 
