@@ -1,0 +1,69 @@
+<!DOCTYPE html><!--Especificando que o tipo do documento é em HTML e iniciando
+                a tag <html>-->
+<html lang="pt-br"> <!--Início da tag <html> (página HTML) e 
+                    adicionando a linguagem da página HTML-->
+  <head><!--Início da cabeça (head) do site-->
+    <!--<meta charset="UTF-8" /> no HTML define o conjunto de caracteres que vai ser usado 
+    na página, garantindo que os caracteres sejam interpretados de forma correta pelo navegador. -->
+    <meta charset="UTF-8" />
+    <!--<meta name="viewport" content="width=device-width, initial-scale=1.0" /> no HTML 
+    é usado para controlar como o navegador móvel renderiza a página, 
+    ajustando a largura da visualização para o tamanho do dispositivo 
+    e definindo o nível de zoom inicial. -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />]
+    <!--Linkar o CSS na página HTML-->
+    <link rel="stylesheet" href="../styles/global.css">
+    <!--Linkar o CSS na página HTML-->
+    <link rel="stylesheet" href="../styles/default.css">
+    <!--Título do site (vai na cabeça da página, por isso, está na tag <head>)-->
+    <title>Exemplo Tabela</title>
+  </head> <!--Fechamento da cabeça (head) do site-->
+  <!--Início do corpo (body) do site-->
+  <body>
+    <!--<main> é usada para envolver o conteúdo principal de uma página, 
+    como o conteúdo central de um documento HTML.-->
+    <main> <!--Início do conteúdo principal da página-->
+      <!--<p> no HTML é uma tag usada para representar um parágrafo de texto-->
+      <p>
+        No HTML usamos a tag <code>&#x3C;table&#x3E;&#x3C;/table&#x3E;</code> para organizar dados em linhas e colunas
+        como se fosse um relatório/excel/informativo <em>(nunca para layout).</em>
+      </p><!--Início da tag parágrafo <p>-->
+      <!-- A tag <table cellspacing="0" border="1"> é usada para criar uma tabela 
+      com sem espaço entre as células (cellspacing="0") e combordas visíveis (border="1")-->
+      <table cellspacing="0" border="1"> <!--Início da tag <table> -->
+        <!--<thead> é usada para definir a seção de cabeçalho de uma tabela.-->
+        <thead> <!--Início e definir cabeçalho da tabela-->
+          <!--<tr> é usada para definir uma linha em uma tabela HTML.-->
+          <tr> <!--Início e definir uma linha na tabela-->
+            <!--<th> é usada para definir células de cabeçalho em uma tabela HTML-->
+            <th>Nome</th> <!--Definir cabeçalho na tabela-->
+            <!--<th> é usada para definir células de cabeçalho em uma tabela HTML-->
+            <th>E-mail</th> <!--Definir cabeçalho na tabela-->
+            <!--<th> é usada para definir células de cabeçalho em uma tabela HTML-->
+            <th>Idade</th> <!--Definir cabeçalho na tabela-->
+          </tr> <!--Fechamento de linha na tabela-->
+        </thead> <!--Fechamento cabeçalho da tabela-->
+        <!--<tbody> é usada para definir o corpo de uma tabela-->
+        <tbody> <!--Início e definir o corpo de uma tabela-->
+          <!--<tr> é usada para criar uma linha em uma tabela HTML-->
+          <tr> <!--Início e criar uma linha na tabela-->
+            <!--<td> é usada para definir células em uma tabela-->
+            <td>João</td> <!--Definir célula na tabela-->
+            <!--<td> é usada para definir células em uma tabela-->
+            <td>jao@gmail.com</td> <!--Definir célula na tabela-->
+            <!--<td> é usada para definir células em uma tabela-->
+            <td>25</td> <!--Definir célula na tabela-->
+          </tr> <!--Fechar uma linha na tabela-->
+          <tr> <!--Início e criar uma linha na tabela-->
+            <!--<td> é usada para definir células em uma tabela-->
+            <td>Pedro</td> <!--Definir célula na tabela-->
+            <!--<td> é usada para definir células em uma tabela-->
+            <td>pedrim@gmail.com</td> <!--Definir célula na tabela-->
+            <!--<td> é usada para definir células em uma tabela-->
+            <td>21</td> <!--Definir célula na tabela-->
+          </tr> <!--Fechar uma linha na tabela-->
+        </tbody> <!--Fechamento de definir o corpo da tabela-->
+      </table> <!--Fechamento da tag <table> (tabela)-->
+    </main> <!--Fechamento do conteúdo principal da página-->
+  </body> <!--Fechamento da tag <body> corpo da página-->
+</html> <!--Fechamento da tag <html> (FINAL DA PÁGINA)-->

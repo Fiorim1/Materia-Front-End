@@ -1,0 +1,208 @@
+<!DOCTYPE html> <!--Especificando que o tipo do documento é em HTML e iniciando
+                a tag <html>-->
+<html lang="pt-br"> <!--Início da tag <html> (página HTML) e 
+                    adicionando a linguagem da página HTML-->
+  <head> <!--Início da cabeça (head) do site-->
+    <!--<meta charset="UTF-8" /> no HTML define o conjunto de caracteres que vai ser usado 
+    na página, garantindo que os caracteres sejam interpretados de forma correta pelo navegador. -->
+    <meta charset="UTF-8" />
+    <!--<meta name="viewport" content="width=device-width, initial-scale=1.0" /> no HTML 
+    é usado para controlar como o navegador móvel renderiza a página, 
+    ajustando a largura da visualização para o tamanho do dispositivo 
+    e definindo o nível de zoom inicial. -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--Linkar o CSS na página HTML-->
+    <link rel="stylesheet" href="../styles/global.css">
+    <!--Linkar o CSS na página HTML-->
+    <link rel="stylesheet" href="../styles/default.css">
+    <!--Título do site (vai na cabeça da página, por isso, está na tag <head>)-->
+    <title>Exemplo de Campos de Form</title>
+  </head> <!--Fechamento da cabeça (head) do site-->
+  <!--Início do corpo (body) do site-->
+  <body>
+    <!--<main> é usada para envolver o conteúdo principal de uma página, 
+    como o conteúdo central de um documento HTML.-->
+    <main> <!--Início do conteúdo principal da página-->
+      <!--<p> é uma tag usada para representar um parágrafo de texto-->
+      <p> <!--Início da tag parágrafo <p>-->
+        Formulários em HTML/front-end servem para coletar informações do usuário e enviar as mesmas para um servidor de
+        back-end. Tudo que é "digitável" dentro de uma tag 
+        <!--<code> é usada para envolver e destacar trechos de código fonte em um documento HTML.-->
+        <code> <!--Início da tag <code> e destacar um trecho de código no texto-->
+          &#x3C;form&#x3E;&#x3C;/form&#x3E;
+        </code> <!--Fechamento da tag <code>-->
+        será "envelopado" e enviado para o servidor em um endereço apontado no atributo <code>action='...'</code>.
+      </p> <!--Fechamento da tag parágrafo <p>-->
+      <!--<form> é usada para criar um formulário em uma página da web-->
+      <!--action especifica para onde os dados do formulário serão enviados-->
+      <!--method especifica como os dados serão enviados (post, de forma mais segura sem
+       aparecer na barra de pesquisa em cima)-->
+      <form action="https://httpbin.org/post" method="post"> <!--Início e criar um formulário-->
+        <!--<fieldset> é usada para agrupar elementos de formulário 
+        relacionados em uma caixa visual com uma legenda opcional-->
+        <fieldset> <!--Início e agrupar elementos de um formulário (visual)-->
+          <div class="form-control"> <!--Criação/início de uma class chamada form-control 
+                                      para controle de estilização no CSS e manipulação no JavaScript-->
+            <!--<label> é usada para associar um rótulo (tipo de coisa que vai servir)  
+            a um elemento de formulário, como um campo de entrada de texto, usando o atributo for-->
+            <!--O atributo for no elemento <label> é usado para vincular o rótulo a um elemento 
+            de formulário específico, referenciando o id desse elemento-->
+            <label for="nome">Nome:</label> <!--Associar um rótulo no formulário-->
+            <!--<input> com type="text" é usada para criar um campo de entrada de texto em um formulário-->
+            <!--id serve para identificação de elemento dentro da página e 
+            controle de estilização no CSS e manipulação no JavaScript -->
+            <!--name é usado para identificar o campo quando os dados do formulário 
+            são enviados para o servidor-->
+            <!--required indica que o campo é obrigatório preencher-->
+            <!--placeholder fornece um texto de orientação ao usuário sobre o que inserir no campo-->
+            <input type="text" id="nome" name="nome" required placeholder="Informe o seu nome completo" /> <!--Criar um campo de texto-->
+          </div> <!--Fechamento da div form-control-->
+          <div class="form-control"> <!--Criação/início de uma class chamada form-control 
+                                     para controle de estilização no CSS e manipulação no JavaScript-->
+            <!--<label> é usada para associar um rótulo (tipo de coisa que vai servir)  
+            a um elemento de formulário, como um campo de entrada de texto, usando o atributo for-->
+            <!--O atributo for no elemento <label> é usado para vincular o rótulo a um elemento 
+            de formulário específico, referenciando o id desse elemento-->
+            <label for="email">E-mail:</label> <!--Associar um rótulo no formulário-->
+            <!--<input type="email" /> serve para criar um campo de entrada de dados 
+            que espera um endereço de e-mail válido-->
+            <!--required faz com que o campo seja obrigatório 
+            para ser preenchido antes de enviar o formulário-->
+            <!--id serve para identificação de elemento dentro da página e 
+            controle de estilização no CSS e manipulação no JavaScript -->
+            <!--name é usado para identificar o campo quando os dados do formulário 
+            são enviados para o servidor-->
+            <input type="email" id="email" name="email" required /> <!--Criar um campo de email-->
+          </div> <!--Fechamento da div form-control-->
+          <div class="form-control"> <!--Criação/início de uma class chamada form-control 
+                                      para controle de estilização no CSS e manipulação no JavaScript-->
+            <!--<label> é usada para associar um rótulo (tipo de coisa que vai servir)  
+            a um elemento de formulário, como um campo de entrada de texto, usando o atributo for-->
+            <!--O atributo for no elemento <label> é usado para vincular o rótulo a um elemento 
+            de formulário específico, referenciando o id desse elemento-->
+            <label for="senha">Senha:</label> <!--Associar um rótulo no formulário-->
+            <!--<input type="password"> é usada para criar 
+            um campo de entrada de senha em formulários-->
+            <!--id serve para identificação de elemento dentro da página e 
+            controle de estilização no CSS e manipulação no JavaScript -->
+            <!--name é usado para identificar o campo quando os dados do formulário 
+            são enviados para o servidor-->
+            <input type="password" id="senha" name="senha" /> <!--Criar um campo de senha-->
+          </div> <!--Fechamento da div form-control-->
+          <div class="form-control"> <!--Criação/início de uma class chamada form-control 
+                                     para controle de estilização no CSS e manipulação no JavaScript-->
+            <!--<label> é usada para associar um rótulo (tipo de coisa que vai servir)  
+             a um elemento de formulário-->
+            <label>Sexo:</label> <!--Associar um rótulo no formulário-->
+            <!--<input type="radio" name="sexo" value="M"/> é usada 
+            para criar um botão de opção (radio button) 
+            que permite aos usuários selecionarem uma única opção de um conjunto (Usado para
+            opção de escolha de sexo)-->
+            <!--name="sexo" é usado para agrupar os botões de opção juntos sob o mesmo nome-->
+            <!--value="M" atribui o valor "M" à opção selecionada, indicando geralmente "masculino"-->
+            <input type="radio" name="sexo" value="M" /> Masculino <!--Criar oção de botão de escolha-->
+            <!--<input type="radio" name="sexo" value="M"/> é usada 
+            para criar um botão de opção (radio button) 
+            que permite aos usuários selecionarem uma única opção de um conjunto (Usado para
+            opção de escolha de sexo)-->
+            <!--name="sexo" é usado para agrupar os botões de opção juntos sob o mesmo nome-->
+            <!--value="M" atribui o valor "F" à opção selecionada, indicando geralmente "feminino"-->
+            <input type="radio" name="sexo" value="F" /> Feminino <!--Criar oção de botão de escolha-->
+          </div> <!--Fechamento da div form-control-->
+          <div class="form-control"> <!--Criação/início de uma class chamada form-control 
+                                     para controle de estilização no CSS e manipulação no JavaScript-->
+            <!--<label> é usada para associar um rótulo (tipo de coisa que vai servir)  
+            a um elemento de formulário, como um campo de entrada de texto, usando o atributo for-->
+            <!--O atributo for no elemento <label> é usado para vincular o rótulo a um elemento 
+            de formulário específico, referenciando o id desse elemento-->
+            <label for="estado">Estado:</label> <!--Associar um rótulo no formulário-->
+            <!--<select> é usada para criar um menu suspenso 
+            onde os usuários podem selecionar uma opção entre várias-->
+            <!--id serve para identificação de elemento dentro da página e 
+            controle de estilização no CSS e manipulação no JavaScript -->
+            <!--name é usado para identificar o campo quando os dados do formulário 
+            são enviados para o servidor-->
+            <select id="estado" name="estado"> <!--Início e criar um menu suspenso-->
+              <!--<option> é usada dentro de um elemento <select> 
+              para criar uma lista de opções selecionáveis-->
+              <!--value define o valor associado a cada opção, 
+              que é enviado ao servidor quando a opção é selecionada.-->
+              <option value=""></option> <!--Lista com opção selecionável-->
+              <!--<option> é usada dentro de um elemento <select> 
+              para criar uma lista de opções selecionáveis-->
+              <!--value define o valor associado a cada opção, 
+              que é enviado ao servidor quando a opção é selecionada.-->
+              <option value="AC">Acre</option> <!--Lista com opção selecionável-->
+              <!--<option> é usada dentro de um elemento <select> 
+              para criar uma lista de opções selecionáveis-->
+              <!--value define o valor associado a cada opção (estado), 
+              que é enviado ao servidor quando a opção é selecionada.-->
+              <option value="AL">Alagoas</option> <!--Lista com opção selecionável-->
+              <!--<option> é usada dentro de um elemento <select> 
+              para criar uma lista de opções selecionáveis-->
+              <!--value define o valor associado a cada opção (estado), 
+              que é enviado ao servidor quando a opção é selecionada.-->
+              <option value="AP">Amapá</option> <!--Lista com opção selecionável-->
+              <!--<option> é usada dentro de um elemento <select> 
+              para criar uma lista de opções selecionáveis-->
+              <!--value define o valor associado a cada opção (estado), 
+              que é enviado ao servidor quando a opção é selecionada.-->
+              <option value="SP">São Paulo</option> <!--Lista com opção selecionável-->
+              <!--<option> é usada dentro de um elemento <select> 
+              para criar uma lista de opções selecionáveis-->
+              <!--value define o valor associado a cada opção (estado), 
+              que é enviado ao servidor quando a opção é selecionada.-->
+              <option value="RJ">Rio de Janeiro</option> <!--Lista com opção selecionável-->
+              <!--<option> é usada dentro de um elemento <select> 
+              para criar uma lista de opções selecionáveis-->
+              <!--value define o valor associado a cada opção (estado), 
+              que é enviado ao servidor quando a opção é selecionada.-->
+              <option value="SC">Santa Catarina</option> <!--Lista com opção selecionável-->
+              <!--<option> é usada dentro de um elemento <select> 
+              para criar uma lista de opções selecionáveis-->
+              <!--value define o valor associado a cada opção (estado), 
+              que é enviado ao servidor quando a opção é selecionada.-->
+              <option value="RS">Rio Grande do Sul</option> <!--Lista com opção selecionável-->
+            </select> <!--Fechamento do menu suspenso-->
+          </div> <!--Fechamento da div form-control-->
+          <div class="form-control"> <!--Criação/início de uma class chamada form-control 
+                                      para controle de estilização no CSS e manipulação no JavaScript-->
+            <!--<label> é usada para associar um rótulo (tipo de coisa que vai servir)  
+            a um elemento de formulário, como um campo de entrada de texto, usando o atributo for-->
+            <!--O atributo for no elemento <label> é usado para vincular o rótulo a um elemento 
+            de formulário específico, referenciando o id desse elemento-->
+            <label for="obs">Comentários:</label> <!--Associar um rótulo no formulário-->
+            <!--<textarea> é usada para criar uma área de texto multi-linha em formulários web, 
+            onde os usuários podem inserir texto mais longo-->
+            <!--id serve para identificação de elemento dentro da página e 
+            controle de estilização no CSS e manipulação no JavaScript -->
+            <!--name é usado para identificar o campo quando os dados do formulário 
+            são enviados para o servidor-->
+            <textarea id="obs" name="obs"></textarea> <!--Criação de área de texto mais longo-->
+          </div> <!--Fechamento da div form-control-->
+          <div class="form-control"> <!--Criação/início de uma class chamada form-control 
+                                     para controle de estilização no CSS e manipulação no JavaScript-->
+             <!--<label> é usada para associar um rótulo (tipo de coisa que vai servir)  
+             a um elemento de formulário-->
+            <label>Termos de uso:</label>
+            <!--<input type="checkbox" name="aceito" /> é utilizada para criar uma caixa de seleção
+            (checkbox) que permite ao usuário marcar ou desmarcar uma opção-->
+            <!--name é usado para identificar o campo quando os dados do formulário 
+            são enviados para o servidor-->
+            <input type="checkbox" name="aceito" /> eu aceito os termos de uso <!--Criar caixa de seleção
+                                                                                de marca e desmarca-->
+          </div> <!--Fechamento da div form-control-->
+          <div class="row-button"> <!--Criação/início de uma class chamada row-button 
+                                    para controle de estilização no CSS e manipulação no JavaScript-->
+            <!--button type="submit">Enviar</button> é usada em formuláriospara criar um botão que, 
+            quando clicado, envia os dados do formulário para o servidor-->
+            <button type="submit">Enviar</button>
+            <!--button type="reset"> é usada para criar um botão que limpa ou redefine os valores 
+            de todos os campos de um formulário para seus valores padrão-->
+            <button type="reset">Limpar</button>
+          </div> <!--Fechamento da div form-control-->
+        </fieldset> <!--Fechamento de agrupamentos de elementos de um formulário (visual)-->
+      </form> <!--Fechamento de formulário-->
+    </main> <!--Fechamento do conteúdo principal da página-->
+  </body> <!--Fechamento da tag <body> corpo da página-->
+</html> <!--Fechamento da tag <html> (FINAL DA PÁGINA)-->
