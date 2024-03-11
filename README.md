@@ -12,5 +12,6 @@
 <h3>Estrutura do Repositório:</h3>
   <code><h4>Aula De codificação dos arquivos (dia 06/03/2024)</h4>
     <p>Instalação da pasta (unisatc-front-end-html-css), pasta que o professor nos entregou através do AVA (Portal Do Aluno)</p>
+    <p>Nesete mesmo dia (06/03/2024), juntamente com o professor nos orientando, iniciamos com a programação HTML (Hyper Text) e com CSS (Estilização)</p>
   </code>
 
