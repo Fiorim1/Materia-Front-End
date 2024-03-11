@@ -15,7 +15,10 @@
     <p>Neste mesmo dia (06/03/2024), juntamente com o professor nos orientando, iniciamos com a programação HTML (Hyper Text) e com CSS (Estilização)</p>
     <p>O mesmo (professor) nos mostrou os arquivos que contiam dentro da pasta entregue do portal para nós alunos</p>
     <p>Com a pasta entregue, eu com um pouco de conhecimento na área de front-end, realizei algumas alterações para controle/semântica de arquivos:</p>
-    
-📃index.html, 📂src->📂imgs(🖼️luffy.jpg)->📂pages(📃tabela.html, 📃imagem.html, 📃formulario.html)->📂styles(📘global.css, default.css)</p>
+    <p><b>OBS.: A pasta foi entregue de forma "crua", pois estamos iniciando na parte de programação básica de Front-End </b></p>
+    <p>Pasta entregue para os alunos:</p>
+    📘default.css, 📃formulario.html, 📃imagem.html, 📃index.html, 🖼️luffy.jpg, 📃tabela.html
+    <p>Pasta com minhas alterações:
+📃index.html, 📂src->📂imgs(🖼️luffy.jpg)->📂pages(📃tabela.html, 📃imagem.html, 📃formulario.html)->📂styles(📘global.css, 📘default.css)</p>
   
 
