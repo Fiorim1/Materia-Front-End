@@ -17,8 +17,8 @@
     <p>Com a pasta entregue, eu com um pouco de conhecimento na área de front-end, realizei algumas alterações para controle/semântica de arquivos:</p>
     <p><b>OBS.: A pasta foi entregue de forma "crua" aos alunos pelo professor, pois estamos iniciando na parte de programação básica de Front-End </b></p>
     <p>Pasta entregue para os alunos:</p>
-    📘default.css, 📃formulario.html, 📃imagem.html, 📃index.html, 🖼️luffy.jpg, 📃tabela.html
+    <p></p>📘default.css, 📃formulario.html, 📃imagem.html, 📃index.html, 🖼️luffy.jpg, 📃tabela.html</p>
     <p>Pasta com minhas alterações:</p>
-    📃index.html, 📂src->📂imgs(🖼️luffy.jpg)->📂pages(📃tabela.html, 📃imagem.html, 📃formulario.html)->📂styles(📘global.css, 📘default.css)
+    <p></p>📃index.html, 📂src->📂imgs(🖼️luffy.jpg)->📂pages(📃tabela.html, 📃imagem.html, 📃formulario.html)->📂styles(📘global.css, 📘default.css)</p>
   
 
