@@ -13,7 +13,9 @@
   <h4><b>Aula De codificação dos arquivos (dia 06/03/2024:)</b></h4>
     <p>Instalação da pasta (unisatc-front-end-html-css), pasta que o professor nos entregou através do AVA (Portal Do Aluno)</p>
     <p>Neste mesmo dia (06/03/2024), juntamente com o professor nos orientando, iniciamos com a programação HTML (Hyper Text) e com CSS (Estilização)</p>
-    <p>O mesmo (professor) nos mostrou os arquivos que contiam dentro da pasta entregue do portal para nós alunos:<br>
+    <p>O mesmo (professor) nos mostrou os arquivos que contiam dentro da pasta entregue do portal para nós alunos</p>
+    <p>Com a pasta entregue, eu com um pouco de conhecimento na área de front-end, realizei algumas alterações para controle/semântica de arquivos:</p>
+    
 📃index.html, 📂src->📂imgs(🖼️luffy.jpg)->📂pages(📃tabela.html, 📃imagem.html, 📃formulario.html)->📂styles(📘global.css, default.css)</p>
   
 
