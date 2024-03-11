@@ -14,6 +14,6 @@
     <p>Instalação da pasta (unisatc-front-end-html-css), pasta que o professor nos entregou através do AVA (Portal Do Aluno)</p>
     <p>Neste mesmo dia (06/03/2024), juntamente com o professor nos orientando, iniciamos com a programação HTML (Hyper Text) e com CSS (Estilização)</p>
     <p>O mesmo (professor) nos mostrou os arquivos que contiam dentro da pasta:
-📂src->📂imgs(</p>
+📃index.html, 📂src->📂imgs(🖼️luffy.jpg)->📂pages(📃</p>
   </code>
 
