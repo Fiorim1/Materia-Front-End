@@ -6,6 +6,6 @@
   <h4>Neste repositório, você encontrará os seguintes recursos:</h4>
   <ul>
     <li><b>Códigos Fonte:</b> Todos os códigos fonte relacionados à atividade da disciplina.</li>
-    <li><b>Documentação:</b> Qualquer documentação relevante, incluindo guias de instalação, manuais do usuário, etc.</li>
+    <li><b>Documentação:</b> Qualquer documentação relevante de cada função dentro dos arquivos da pasta</li>
   </ul>
 
