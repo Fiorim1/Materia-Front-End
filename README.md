@@ -35,6 +35,7 @@
    </li>
    <li>
      <h4>Commit suas mudanças (git commit -am 'Adicionando nova feature'):</h4>
+     <p>Depois de fazer suas modificações, você precisa confirmá-las com um commit. O comando git commit -am 'Adicionando nova feature' cria um novo commit com uma mensagem explicativa indicando as mudanças que você fez. Certifique-se de fornecer uma mensagem clara e concisa para descrever suas alterações.</p>
    </li>
  </ul>
 
