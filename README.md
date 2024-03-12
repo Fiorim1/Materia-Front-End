@@ -37,5 +37,14 @@
      <h4>Commit suas mudanças (git commit -am 'Adicionando nova feature'):</h4>
      <p>Depois de fazer suas modificações, você precisa confirmá-las com um commit. O comando git commit -am 'Adicionando nova feature' cria um novo commit com uma mensagem explicativa indicando as mudanças que você fez. Certifique-se de fornecer uma mensagem clara e concisa para descrever suas alterações.</p>
    </li>
+   <li>
+     <h4>Push para o branch (git push origin feature/nova-feature):</h4>
+     <p>Após fazer o commit das suas alterações, você precisa enviar essas alterações para o seu fork do repositório no GitHub. O comando git push origin feature/nova-feature envia as alterações do seu branch local para o branch correspondente no seu fork remoto.</p>
+   </li>
+   <li>
+     <h4>Crie um novo Pull Request:</h4>
+     <p>Por fim, você pode criar um Pull Request (PR) para enviar suas alterações de volta para o repositório original. Um PR é uma solicitação para que o proprietário do repositório original incorpore suas alterações ao projeto principal. No GitHub, você pode fazer isso clicando no botão "Pull Request" na página do seu fork do repositório. Certifique-se de revisar suas alterações e fornecer uma descrição detalhada antes de criar o PR.</p>
+   </li>
+   <p><b>OBS.:Seguindo esses passos, você estará contribuindo com sucesso para o projeto no GitHub. Certifique-se de seguir as diretrizes de contribuição e colaborar de forma respeitosa e construtiva com a desenvolvimento.</p></b>
  </ul>
 
