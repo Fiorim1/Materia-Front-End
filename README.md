@@ -47,4 +47,16 @@
    </li>
    <p><b>OBS.:Seguindo esses passos, você estará contribuindo com sucesso para o projeto no GitHub. Certifique-se de seguir as diretrizes de contribuição e colaborar de forma respeitosa e construtiva com a desenvolvimento.</p></b>
  </ul>
-
+<br>
+<h3>Diretrizes de Contribuição</h3>
+<ul>
+  <li>
+    <p>Mantenha o código limpo e bem documentado.</p>
+  </li>
+  <li>
+    <p>Siga as melhores práticas de codificação e padrões da linguagem.</p>
+  </li>
+  <li>
+    <p>Certifique-se de testar suas mudanças antes de enviar um pull request.</p>
+  </li>
+</ul>
