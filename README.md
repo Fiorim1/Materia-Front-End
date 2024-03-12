@@ -33,5 +33,8 @@
      <h4>Faça suas modificações:</h4>
      <p>Agora que você está em um novo branch, pode começar a fazer suas modificações no código-fonte, documentação ou qualquer outro aspecto do projeto com o qual deseje contribuir.</p>
    </li>
+   <li>
+     <h4>Commit suas mudanças (git commit -am 'Adicionando nova feature'):</h4>
+   </li>
  </ul>
 
