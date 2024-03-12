@@ -1,4 +1,4 @@
-<h1>Front End Engineering - Engenharia de Software (UNISATC)</h1> <br>
+<h1>Front End - Engenharia de Software (UNISATC)</h1> <br>
 
 <h2>Este repositório contém os arquivos e materiais relacionados à disciplina de Front End (Engenharia de Software) do curso de Engenharia de Software da UNISATC</h2>
 <br>
