@@ -1,3 +1,4 @@
+./logo_satc_1.svg
 <h1>Front End - Engenharia de Software (UNISATC)</h1> <br>
 
 <h2>Este repositório contém os arquivos e materiais relacionados à disciplina de Front End do curso de Engenharia de Software da UNISATC</h2>
