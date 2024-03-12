@@ -19,6 +19,7 @@
     <p>Pasta entregue para os alunos:</p>
     <p></p>📘default.css, 📃formulario.html, 📃imagem.html, 📃index.html, 🖼️luffy.jpg, 📃tabela.html</p>
     <p>Pasta com minhas alterações:</p>
-    <p></p>📃index.html, 📂src->📂imgs(🖼️luffy.jpg)->📂pages(📃tabela.html, 📃imagem.html, 📃formulario.html)->📂styles(📘global.css, 📘default.css)</p>
+    <p></p>📃index.html, 📂src->📂imgs(🖼️luffy.jpg)->📂pages(📃tabela.html, 📃imagem.html, 📃formulario.html)->📂styles(📘global.css, 📘default.css)</p> <br>
+<h3>Como Contribuir:</h3>
   
 
