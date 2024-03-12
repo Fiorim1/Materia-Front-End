@@ -29,5 +29,9 @@
    </li>
    <li><h4>Crie um branch para sua modificação (git checkout -b feature/nova-feature):</h4></li>
      <p>Antes de começar a fazer suas modificações, é recomendável criar um novo branch em seu fork do repositório. Isso permite que você trabalhe em suas alterações de forma isolada, sem interferir no branch principal (geralmente chamado de "master" ou "main"). O comando git checkout -b feature/nova-feature cria um novo branch chamado "feature/nova-feature" e muda para esse branch.</p>
+   <li>
+     <h4>Faça suas modificações:</h4>
+     <p>Agora que você está em um novo branch, pode começar a fazer suas modificações no código-fonte, documentação ou qualquer outro aspecto do projeto com o qual deseje contribuir.</p>
+   </li>
  </ul>
 
