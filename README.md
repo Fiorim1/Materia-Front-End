@@ -59,4 +59,5 @@
   <li>
     <p>Certifique-se de testar suas mudanças antes de enviar um pull request.</p>
   </li>
-</ul>
+</ul> <br>
+
