@@ -66,4 +66,7 @@
     <p>Gabriel Fiorim Esteves</p>
   </li>
 </ul>
+<br>
+<h3>Licença:</h3>
+<p>Este projeto está licenciado sob a Licença de Gabriel Fiorim Esteves</p>
 
