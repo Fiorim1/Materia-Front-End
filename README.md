@@ -28,5 +28,6 @@
        <p>Quando você faz um fork de um repositório no GitHub, você está criando uma cópia desse repositório em sua própria conta do GitHub. Isso permite que você faça modificações no código sem afetar o repositório original. Para fazer um fork, basta clicar no botão "Fork" no canto superior direito da página do repositório.</p>
    </li>
    <li><h4>Crie um branch para sua modificação (git checkout -b feature/nova-feature):</h4></li>
+     <p>Antes de começar a fazer suas modificações, é recomendável criar um novo branch em seu fork do repositório. Isso permite que você trabalhe em suas alterações de forma isolada, sem interferir no branch principal (geralmente chamado de "master" ou "main"). O comando git checkout -b feature/nova-feature cria um novo branch chamado "feature/nova-feature" e muda para esse branch.</p>
  </ul>
 
