@@ -27,6 +27,6 @@
      <h4>Fork este repositório:</h4>
        <p>Quando você faz um fork de um repositório no GitHub, você está criando uma cópia desse repositório em sua própria conta do GitHub. Isso permite que você faça modificações no código sem afetar o repositório original. Para fazer um fork, basta clicar no botão "Fork" no canto superior direito da página do repositório.</p>
    </li>
-   <li>Crie um branch para sua modificação (git checkout -b feature/nova-feature):</li>
+   <li><h4>Crie um branch para sua modificação (git checkout -b feature/nova-feature):</h4></li>
  </ul>
 
