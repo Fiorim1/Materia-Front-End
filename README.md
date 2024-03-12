@@ -22,4 +22,9 @@
     <p></p>📃index.html, 📂src->📂imgs(🖼️luffy.jpg)->📂pages(📃tabela.html, 📃imagem.html, 📃formulario.html)->📂styles(📘global.css, 📘default.css)</p> <br>
 <h3>Como Contribuir:</h3>
  <p>Se você é um aluno da disciplina ou um colaborador interessado em contribuir para este repositório, sinta-se à vontade para fazer um fork deste repositório e enviar pull requests com suas contribuições. Certifique-se de seguir as diretrizes de contribuição abaixo:</p> 
+ <ul>
+   <li>
+     <h4>Fork este repositório:</h4>
+   </li>
+ </ul>
 
