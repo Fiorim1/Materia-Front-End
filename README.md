@@ -60,4 +60,10 @@
     <p>Certifique-se de testar suas mudanças antes de enviar um pull request.</p>
   </li>
 </ul> <br>
+<h3>Autores:</h3>
+<ul>
+  <li>
+    <p>Gabriel Fiorim Esteves</p>
+  </li>
+</ul>
 
