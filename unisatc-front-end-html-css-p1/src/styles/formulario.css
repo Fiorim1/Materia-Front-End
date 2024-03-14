@@ -1,0 +1,65 @@
+form {
+    background-color: #ffff;
+    /* Largura máxima */
+    max-width: 720px;
+    /* Centralizar o formulário na tela */
+    margin: 0 auto;
+}
+
+form fieldset {
+    padding: 21px;
+}
+
+form .form-control {
+    /* Descolar os elementos com margem */
+    margin: 0 0 16px 0;
+    /* Deixar os label em cima */
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+form .form-control > label {
+    font-weight: bold;
+    border-radius: 5px;
+    padding: 2px;
+}
+
+
+form .form-control > input,
+form .form-control > textarea,
+form .form-control > select{
+    padding: 10px;
+    font-size: 16px;
+    border: 2px solid black;
+    border-radius: 10px;
+    /* Para ver a borda cinza */
+    outline: 0;
+
+}
+
+form .form-control > input:focus {
+    border-color: gray;
+}
+
+form .form-control > input[type="checkbox"] {
+    accent-color: purple;
+}
+
+
+form .row-button > button {
+    background-color: #333;
+    color: #fff;
+    font-size: 21px;
+    font-weight: bold;
+    padding: 9px 12px;
+    border: 0;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 2s, transform 0.4s;
+}
+
+form .row-button > button:hover {
+    background-color: purple;
+    transform: scale(1.2);
+}
