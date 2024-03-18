@@ -20,7 +20,7 @@
     <p>Pasta entregue para os alunos:</p>
     <p></p>📘default.css, 📃formulario.html, 📃imagem.html, 📃index.html, 🖼️luffy.jpg, 📃tabela.html</p>
     <p>Pasta com minhas alterações:</p>
-    <p></p>📃index.html, 📂src->📂imgs(🖼️luffy.jpg)->📂pages(📃tabela.html, 📃imagem.html, 📃formulario.html)->📂styles(📘global.css, 📘index.css)</p> <br>
+    <p></p>📂src->📃index.html,📂imgs(🖼️luffy.jpg)->📂pages(📃tabela.html, 📃imagem.html, 📃formulario.html)->📂styles(📘global.css, 📘index.css)</p> <br>
 <h3>Como Contribuir:</h3>
  <p>Se você é um aluno da disciplina ou um colaborador interessado em contribuir para este repositório, sinta-se à vontade para fazer um fork deste repositório e enviar pull requests com suas contribuições. Certifique-se de seguir as diretrizes de contribuição abaixo:</p> 
  <ul>
